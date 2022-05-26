@@ -1,0 +1,60 @@
+@charset "UTF-8";
+h2{
+    font-size: 3.2rem;
+}
+
+/* mv */
+#mv{
+    height: calc(100vh - 6.5rem);
+    position: relative;
+    margin-bottom: 15.8rem;
+    overflow: hidden;
+}
+
+#mv #video-area{
+    position: absolute;
+    width: 100%;
+    background: white;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+#mv #video-area #video{
+    opacity: .5;
+    width: 100%;
+    height: auto;
+}
+
+#mv h1{
+    position: absolute;
+    font-family: source-han-serif-japanese, serif;
+    top: 50%;
+    left: 50%;
+    font-size: 10.9rem;
+    letter-spacing: 1rem;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    text-shadow: .1rem .1rem .2rem rgb(191, 172, 163);
+}
+
+#mv h1 small{
+    font-size: 3.3rem;
+}
+
+/* concept */
+#concept{
+    width: 70.5%;
+    margin: auto;
+}
+
+#concept figure{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#concept figure img{
+    width: 73.7rem;
+    margin-right: 8.8rem;
+}
