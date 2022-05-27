@@ -7,7 +7,6 @@ h2{
 #mv{
     height: calc(100vh - 6.5rem);
     position: relative;
-    margin-bottom: 15.8rem;
     overflow: hidden;
 }
 
@@ -46,6 +45,7 @@ h2{
 #concept{
     width: 70.5%;
     margin: auto;
+    padding-top: 15.8rem;
 }
 
 #concept figure{
@@ -57,4 +57,239 @@ h2{
 #concept figure img{
     width: 73.7rem;
     margin-right: 8.8rem;
+}
+
+#concept figure figcaption h2{
+    margin-bottom: 6rem;
+}
+
+#concept figure figcaption p{
+    line-height: 2;
+}
+
+/* service */
+#service{
+    width: 70.5%;
+    margin: auto;
+    padding-top: 19rem;
+}
+
+#service h2{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 6.8rem;
+    
+}
+
+#service .wrap{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 5.2rem;
+}
+
+#service .wrap li{
+    width: 48.3%;
+    margin-bottom: 5.4rem;
+}
+
+#service .wrap li:nth-child(odd){
+    margin-right: 3.4%;
+}
+
+#service .wrap li dd img{
+    width: 100%;
+    box-shadow: 0 .3rem .6rem rgba(51, 51, 51, 47%);
+    margin-bottom: 3rem;
+}
+
+#service .wrap li dt{
+    font-size: 2.4rem;
+    margin: auto;
+    margin-bottom: 2.4rem;
+    width: 85%;
+}
+
+#service .wrap li .content{
+    font-size: 1.8rem;
+    width: 85%;
+    margin: auto;
+}
+
+#service .img_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8.3rem;
+}
+
+#service .img_list picture{
+    width: 30.52%;
+}
+
+#service .img_list picture img{
+    width: 100%;
+}
+
+/* mission */
+
+#mission{
+    padding-top: 36.2rem;
+    width: 70.5%;
+    margin: auto;
+}
+
+#mission h2{
+    margin-left: 3.3rem;
+    margin-bottom: 7.75rem;
+}
+
+#mission .wrap picture{
+    margin-left: 28.4rem;
+    position: relative;
+    width: 51rem;
+    height: max-content;
+}
+
+#mission .wrap picture::before{
+    content: "";
+    position: absolute;
+    width: 47.42rem;
+    height: 20.5rem;
+    bottom: -5.67rem;
+    left: 31.17rem;
+    background: url("../img/top/mission_img02.jpg") no-repeat center center/cover;
+}
+
+#mission .wrap p{
+    margin-top: 10.62rem;
+    text-align: center;
+}
+
+/* info */
+#info{
+    padding-top: 24.7rem;
+    width: 70.5%;
+    margin: auto;
+}
+
+#info h2{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 6.3rem;
+}
+
+#info .wrap{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 4.6rem;
+}
+
+#info .wrap .left{
+    width: 25%;
+}
+
+#info .wrap .right{
+    width: 35%;
+}
+
+#info .wrap .left{
+    margin-right: 7.7rem;
+}
+
+#info .wrap > div div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 1.2rem;
+    margin-bottom: 1.3rem;
+    position: relative;
+}
+
+#info .wrap > div div::before{
+    content: "";
+    position: absolute;
+    width: 30.9rem;
+    height: .1rem;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to right, #F75D19, #DB8511, #FEFEFE);
+}
+
+#info .wrap > div h3{
+    font-size: 1.8rem;
+    color: #707070;
+    width: 11.6rem;
+}
+
+/* recruit */
+#recruit{
+    padding-top: 19.3rem;
+    width: 70.5%;
+    margin: auto;
+}
+
+#recruit figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#recruit figure picture{
+    width: 50%;
+    margin-right: 12.2rem;
+}
+
+#recruit figure picture img{
+    width: 100%;
+}
+
+#recruit figure figcaption{
+    width: calc(50% - 12.2rem);
+}
+
+#recruit figure figcaption h2{
+    margin-bottom: 5.3rem;
+}
+
+#recruit figure figcaption p{
+    margin-bottom: 9.4rem;
+}
+
+/* contact */
+#contact{
+    width: 70.5%;
+    margin: auto;
+    padding-top: 23.9rem;
+    padding-bottom: 12.4rem;
+}
+
+#contact figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+#contact figure picture{
+    width: 37%;
+    margin-left: 22.1rem;
+}
+
+#contact figure picture img{
+    width: 100%;
+}
+
+#contact figure h2{
+    margin-bottom: 6.7rem;
+}
+
+#contact figure p{
+    margin-bottom: 6.8rem;
+}
+
+#contact figure .more_wrap a{
+    transform: translateX(100%);
 }

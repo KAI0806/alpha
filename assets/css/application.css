@@ -8,7 +8,7 @@ html{
     outline: none;
 }
 
-body, h1, h2, h3, h4, h5, p, ul, figure{
+body, h1, h2, h3, h4, h5, p, ul, figure, dd{
     margin: 0;
     padding: 0;
 }
@@ -18,8 +18,8 @@ body{
     overflow-x: hidden;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    font-weight: 600;
 }
-
 
 body::-webkit-scrollbar{
     display: none;
@@ -37,10 +37,25 @@ h2{
     font-size: 2.4rem;
     font-weight: 600;
     line-height: 1;
+    position: relative;
+    color: #707070;
+    padding-bottom: .5rem;
+    display: inline-block;
+}
+
+h2::before{
+    position: absolute;
+    content: "";
+    width: 120%;
+    height: .4rem;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to right, #F75D19, #DB8511, #FEFEFE);
 }
 
 p{
     font-size: 1.8rem;
+    font-weight: 600;
     color: #707070;
 }
 
@@ -72,6 +87,43 @@ a{
     display: none;
 }
 
+.more_wrap{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.more{
+    font-size: 1.8rem;
+    color: #707070;
+    display: inline-block;
+    line-height: 1;
+    position: relative;
+    margin-right: 16.7rem;
+}
+
+.more::before{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: -2.2rem;
+    width: 9.7rem;
+    height: 1.1rem;
+    border: none;
+    border-right: .05rem solid #707070;
+    border-bottom: .05rem solid #707070;
+    transform: skew(45deg) translateX(100%);
+    transition: all .2s ease-in-out;
+}
+
+.more:hover::before{
+    width: 14.7rem;
+    transition: all .3s ease-in-out;
+}
+
+/* header */
+
 header{
     position: fixed;
     width: 100%;
@@ -86,6 +138,26 @@ header{
 
 header h1{
     margin-left: 17rem;
+}
+
+header h1 a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #101010;
+    font-weight: 600;
+    font-size: 2.9rem;
+    letter-spacing: .5rem;
+    transition: all .2s ease-in-out;
+}
+
+header h1 a:hover{
+    opacity: .3;
+    transition: all .3s ease-in-out;
+}
+
+header h1 a img{
+    margin-right: 1.93rem;
 }
 
 header nav{
@@ -112,6 +184,7 @@ header nav ul li a{
     font-size: 1.8rem;
     padding: 0 3.25rem;
     height: 100%;
+    font-weight: 600;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,4 +202,48 @@ header nav ul li:last-child a{
 main{
     padding-top: 6.5rem;
     background: url("../img/common/bg.jpg") repeat-y center center/100% auto;
+}
+
+/* footer */
+footer{
+    background: #707070;
+    padding: 5.3rem 0 1.4rem;
+}
+
+footer .wrap{
+    width: 41.72%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 4.8rem;
+}
+
+footer .wrap div{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .wrap div > a{
+    font-size: 3.6rem;
+    color: #E2D9D6;
+    letter-spacing: .5rem;
+}
+
+footer .wrap div p{
+    color: #E2D9D6;
+}
+
+footer .wrap div p a{
+    color: #E2D9D6;
+}
+
+footer .copy{
+    color: #E2D9D6;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: normal;
+    font-family:  "メイリオ", Meiryo, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }

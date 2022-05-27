@@ -9,14 +9,14 @@
     <link rel="stylesheet" href="assets/css/application.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body ontouchstart="">
     <header>
-        <h1><a href="/"><img src="assets/img/common/logo.svg" alt="株式会社ALPHAのロゴ">株式会社ALPHA</a></h1>
+        <h1><a href="#"><img src="assets/img/common/logo.svg" alt="株式会社ALPHAのロゴ">株式会社ALPHA</a></h1>
         
         <nav>
             <ul>
-                <li><a href="/">ホーム</a></li>
-                <li><a href="conpany/">会社概要</a></li>
+                <li><a href="#">ホーム</a></li>
+                <li><a href="company/">会社概要</a></li>
                 <li><a href="service/">事業内容</a></li>
                 <li><a href="recruit/">採用情報</a></li>
                 <li><a href="contact/">お問合せ</a></li>
@@ -82,67 +82,69 @@
                 <li>
                     <dd>
                         <picture>
-                            <img src="" alt="">
+                            <img src="assets/img/top/service01.jpg" alt="土地・戸建分譲">
                         </picture>
                     </dd>
                     <dt>土地・戸建分譲</dt>
-                    <dd>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</dd>
+                    <dd class="content">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</dd>
                 </li>
 
                 <li>
                     <dd>
                         <picture>
-                            <img src="" alt="">
+                            <img src="assets/img/top/service02.jpg" alt="中古マンション販売">
                         </picture>
-                        <dt>中古マンション販売</dt>
-                        <dd>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</dd>
                     </dd>
+                    <dt>中古マンション販売</dt>
+                    <dd class="content">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</dd>
                 </li>
 
                 <li>
                     <dd>
                         <picture>
-                            <img src="" alt="">
+                            <img src="assets/img/top/service03.jpg" alt="不動産仲介">
                         </picture>
-                        <dt>不動産仲介</dt>
-                        <dd>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</dd>
                     </dd>
+                    <dt>不動産仲介</dt>
+                    <dd class="content">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</dd>
                 </li>
 
                 <li>
                     <dd>
                         <picture>
-                            <img src="" alt="">
+                            <img src="assets/img/top/service04.jpg" alt="不動産投資">
                         </picture>
-                        <dt>不動産投資</dt>
-                        <dd>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</dd>
                     </dd>
+                    <dt>不動産投資</dt>
+                    <dd class="content">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</dd>
                 </li>
 
                 <li>
                     <dd>
                         <picture>
-                            <img src="" alt="">
+                            <img src="assets/img/top/service05.jpg" alt="賃貸管理">
                         </picture>
-                        <dt>賃貸管理</dt>
-                        <dd>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</dd>
                     </dd>
+                    <dt>賃貸管理</dt>
+                    <dd class="content">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</dd>
                 </li>
             </ul>
 
             <div class="img_list">
                 <picture>
-                    <img src="" alt="">
+                    <img src="assets/img/top/service_imglist01.jpg" alt="">
                 </picture>
                 <picture>
-                    <img src="" alt="">
+                    <img src="assets/img/top/service_imglist02.jpg" alt="">
                 </picture>
                 <picture>
-                    <img src="" alt="">
+                    <img src="assets/img/top/service_imglist03.jpg" alt="">
                 </picture>
             </div>
 
-            <a href=""></a>
+            <div class="more_wrap">
+                <a class="more" href="">VIEW MORE</a>
+            </div>
         </section>
 
         <section id="mission">
@@ -150,7 +152,7 @@
 
             <div class="wrap">
                 <picture>
-                    <img src="" alt="">
+                    <img src="assets/img/top/mission_img.jpg" alt="MISSION">
                 </picture>
 
                 <p>
@@ -176,13 +178,15 @@
                     <div><h3>事業内容</h3><p>建築<br/>中古マンションのリノベーション含む販売</p></div>
                 </div>
             </div>
-            <a href="">VIEW MORE</a>
+            <div class="more_wrap">
+                <a class="more" href="">VIEW MORE</a>
+            </div>
         </section>
 
         <section id="recruit">
             <figure>
                 <picture>
-                    <img src="" alt="">
+                    <img src="assets/img/top/recruit_img.jpg" alt="RECRUIT">
                 </picture>
 
                 <figcaption>
@@ -193,7 +197,9 @@
                         社員とその家族の幸せと豊かさを追求します。
                     </p>
 
-                    <a href="">VIEW MORE</a>
+                    <div class="more_wrap">
+                        <a class="more" href="">VIEW MORE</a>
+                    </div>
                 </figcaption>
             </figure>
         </section>
@@ -201,15 +207,37 @@
         <section id="contact">
             <figure>
                 <picture>
-                    <img src="" alt="">
+                    <img src="assets/img/top/contact_img.jpg" alt="CONTACT">
                 </picture>
 
                 <figcaption>
                     <h2>CONTACT</h2>
+
+                    <p>不動産のことでお悩みありましたら、お気軽にご相談ください。</p>
+
+                    <div class="more_wrap">
+                        <a class="more" href="">VIEW MORE</a>
+                    </div>
                 </figcaption>
             </figure>
         </section>
     </main>
-    <footer></footer>
+
+    <footer>
+        <div class="wrap">
+            <div>
+                <a href="#">株式会社ALPHA</a>
+            </div>
+
+            <div class="address">
+                <p>
+                    〒152-0003<br/>
+                    東京都目黒区碑文谷4丁目24番13号<br/>
+                    TEL <a href="tel:03-5725-2435">03-5725-2435</a>
+                </p>
+            </div>
+        </div>
+        <p class="copy">&copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> ALPHA Co., ltd.</p>
+    </footer>
 </body>
 </html>
