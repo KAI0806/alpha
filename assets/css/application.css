@@ -204,6 +204,26 @@ main{
     background: url("../img/common/bg.jpg") repeat-y center center/100% auto;
 }
 
+#kv{
+    height: 19.74rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../img/common/kv_bg.jpg") no-repeat center center/cover;
+}
+
+#kv h2{
+    font-size: 4rem;
+    font-family: source-han-serif-japanese, serif;
+    letter-spacing: .25rem;
+    color: #333333;
+    text-shadow: .1rem .1rem .2rem #BFACA3;
+}
+
+#kv h2::before{
+    display: none;
+}
+
 /* footer */
 footer{
     background: #707070;

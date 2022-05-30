@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+#philo{
+    padding: 8.36rem 0 6rem;
+    background: url("../img/recruit/philo_bg.png") no-repeat center center/cover;
+}
+
+#philo h3{
+    font-size: 3.2rem;
+    margin-bottom: 7.7rem;
+    position: relative;
+    width: max-content;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+#philo h3::before{
+    position: absolute;
+    content: "";
+    width: 19.2rem;
+    height: .2rem;
+    right: 0;
+    bottom: 0;
+    transform: translate(100%, 5%);
+    background: linear-gradient(to right, #F75D19, #DB8511, #FEFEFE);
+}
+
+#philo figure{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#philo figure figcaption{
+    margin-right: 7rem;
+}
+
+#philo figure figcaption h2{
+    margin-bottom: 7.1rem;
+}
+
+#philo figure figcaption h2::before{
+    height: .1rem;
+}
+
+#philo figure figcaption p{
+    line-height: 2;
+}
+
+#philo figure figcaption p+p{
+    margin-top: 4rem;
+}
+
+#philo figure img{
+    width: 33.4rem;
+}
+
+/* recruit */
+#recruit{
+    padding-top: 6.08rem;
+    width: 70.5%;
+    margin: auto;
+}
+
+
+#recruit figure{
+    width: 100%;
+    display:flex;
+    margin-bottom: 9.68rem;
+}
+
+#recruit figure picture{
+    width: 50%;
+}
+
+#recruit figure img{
+    width: 100%;
+}
+
+#recruit figure figcaption{
+    width: calc(50% - 8rem);
+}
+
+#recruit figure figcaption h2{
+    margin-bottom: 5.6rem;
+}
+
+#recruit figure figcaption .wrap{
+    margin-left: 8.3rem;
+}
+
+#recruit figure figcaption .wrap div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 2.9rem;
+    margin-bottom: 2.1rem;
+    border-bottom: .2rem solid #FEFEFE;
+    border-image: linear-gradient(to right, #F75D19, #DB8511, #FEFEFE);
+    border-image-slice: 1;
+}
+
+#recruit figure figcaption .wrap div h3{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #707070;
+    width: 15.1rem;
+}
+
+#recruit picture{
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#recruit picture img{
+    width: 50%;
+    margin: 10.7rem auto 7.1rem;
+}

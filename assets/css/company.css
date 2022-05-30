@@ -1,1 +1,126 @@
 @charset "UTF-8";
+
+
+#phil{
+    width: 70.5%;
+    margin: 16.26rem auto 0;
+    position: relative;
+    padding-bottom: 24.3rem;
+}
+
+#phil::before{
+    position: absolute;
+    content: "";
+    width: 64rem;
+    height: 54.97rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -50%);
+    background: url("../img/comapany/phil_bg01.png") no-repeat center center/contain;
+}
+
+#phil::after{
+    position: absolute;
+    content: '';
+    width: 55.6rem;
+    height: 33.1rem;
+    right: 0;
+    bottom: 0;
+    transform: translate(5%, 20%);
+    background: url("../img/comapany/phil_bg02.jpg") no-repeat center center/contain;
+}
+
+#phil h3{
+    font-size: 3.2rem;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 17.2rem;
+    width: max-content;
+}
+
+#phil h3::before{
+    position: absolute;
+    content: "";
+    width: 19.2rem;
+    height: .2rem;
+    right: -1rem;
+    bottom: 0;
+    transform: translate(100%, -1.2rem);
+    background: linear-gradient(to right, #F75D19, #DB8511, #FEFEFE);
+}
+
+#phil h2{
+    margin-bottom: 5.7rem;
+}
+
+#phil h2::before{
+    width: 10.9rem;
+    height: .1rem;
+}
+
+#phil p{
+    line-height: 2;
+}
+
+/* info */
+#info{
+    padding-top: 16.2rem;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 8.6rem;
+}
+
+#info h2{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 6.3rem;
+}
+
+#info .wrap{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 4.6rem;
+}
+
+#info .wrap .left{
+    width: 2    5%;
+}
+
+#info .wrap .right{
+    width: 35%;
+}
+
+#info .wrap .left{
+    margin-right: 7.7rem;
+}
+
+#info .wrap > div div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 1.2rem;
+    margin-bottom: 1.3rem;
+    position: relative;
+}
+
+#info .wrap > div div::before{
+    content: "";
+    position: absolute;
+    width: 30.9rem;
+    height: .1rem;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to right, #F75D19, #DB8511, #FEFEFE);
+}
+
+#info .wrap > div h3{
+    font-size: 1.8rem;
+    color: #707070;
+    width: 11.6rem;
+}
+
+#info img{
+    width: 100%;
+    margin-top: 5.51rem;
+}

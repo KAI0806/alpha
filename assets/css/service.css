@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+#title{
+    padding-top: 8.4rem;
+}
+
+#title figure{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#title figure > picture{
+    width: calc(50% - 5.8rem);
+    margin-left: 5.8rem;
+}
+
+#title figure picture img{
+    width: 100%;
+}
+
+#title figure figcaption{
+    margin-left: 9.1rem;
+    width: calc(50% - 9.1rem);
+}
+
+#title figure figcaption h2{
+    margin-bottom: 11.7rem;
+    margin-left: 5.6rem;
+}
+
+#title figure figcaption h2::before{
+    width: 19.2rem;
+    height: .2rem;
+    right: -1rem;
+    left: unset;
+    bottom: 0;
+    transform: translate(100%, -1rem);
+}
+
+#title figure figcaption div{
+    width: 100%;
+}
+
+#title figure figcaption div img{
+    width: 100%;
+}
+
+/* serv01-02 */
+#serv01, #serv02{
+    padding-top: 17.5rem;
+    width: 87.6%;
+    margin: auto;
+}
+
+#serv01 figure, #serv02 figure{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#serv01 figure picture, #serv02 figure picture{
+    width: 42.8%;
+}
+
+#serv01 figure picture img, #serv02 figure picture img{
+    width: 100%;
+}
+
+#serv01 figure figcaption, #serv02 figure figcaption{
+    width: 50%;
+}
+
+#serv01 figure figcaption h3, #serv02 figure figcaption h3{
+    margin-left: 50%;
+    transform: translateX(-100%);
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: #707070;
+    margin-bottom: 7.1rem;
+    position: relative;
+    width: max-content;
+}
+
+#serv01 figure figcaption h3::before, #serv02 figure figcaption h3::before{
+    position: absolute;
+    content: "";
+    width: 19.2rem;
+    height: .2rem;
+    bottom: 0;
+    right: -1rem;
+    transform: translate(100%, -1rem);
+    background: linear-gradient(to right, #F75D19, #DB8511, #FEFEFE);
+}
+
+#serv01 figure figcaption p, #serv02 figure figcaption p{
+    width: 78%;
+    margin: auto;
+    margin-bottom: 7.6rem;
+}
+
+#serv01 figure figcaption .slider, #serv02 figure figcaption .slider{
+    width: 80%;
+}
+
+#serv01 figure figcaption .slider img, #serv02 figure figcaption .slider img{
+    width: 38.7rem;
+}
+
+/* serv03-05 */
+#serv03, #serv04, #serv05{
+    padding-top: 18.56rem;
+    width: 82.22%;
+    margin: auto;
+}
+
+#serv03 h2, #serv04 h2, #serv05 h2{
+    margin-bottom: 7.45rem;
+}
+
+#serv03 figure, #serv04 figure, #serv05 figure{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#serv03 figure picture, #serv04 figure picture, #serv05 figure picture{
+    width: 45%;
+}
+
+#serv03 figure picture img, #serv04 figure picture img, #serv05 figure picture img{
+    width: 100%;
+}
+
+#serv03 figure figcaption, #serv04 figure figcaption, #serv05 figure figcaption{
+    width: 36.42%;
+}
+
+#serv03 figure figcaption h3, #serv04 figure figcaption h3, #serv05 figure figcaption h3{
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: #707070;
+    margin-bottom: 14.6rem;
+    position: relative;
+    width: max-content;
+}
+
+#serv03 figure figcaption h3::before, #serv04 figure figcaption h3::before, #serv05 figure figcaption h3::before{
+    position: absolute;
+    content: "";
+    width: 19.2rem;
+    height: .2rem;
+    bottom: 0;
+    right: -1rem;
+    transform: translate(100%, -1rem);
+    background: linear-gradient(to right, #F75D19, #DB8511, #FEFEFE);
+}
+
+.foot_message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 19.42rem 0 9.7rem;
+}
+
+.foot_message h3{
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: #707070;
+    position: relative;
+}
+
+.foot_message h3::before{
+    position: absolute;
+    content: "";
+    width: 19.2rem;
+    height: .2rem;
+    bottom: 0;
+    right: -1rem;
+    transform: translate(100%, -1rem);
+    background: linear-gradient(to right, #F75D19, #DB8511, #FEFEFE);
+}
+
+.foot_img{
+    width: 50%;
+    margin: auto;
+    padding-bottom: 9.7rem;
+}
+
+.foot_img img{
+    width: 100%;
+}
+
+.foot_img .more_wrap{
+    margin-bottom: 6.31rem;
+}
+
+.foot_img .more{
+    margin-right: 12.7rem;
+}
