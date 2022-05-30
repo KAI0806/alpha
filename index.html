@@ -13,7 +13,7 @@
     <header>
         <h1><a href="#"><img src="assets/img/common/logo.svg" alt="株式会社ALPHAのロゴ">株式会社ALPHA</a></h1>
         
-        <nav>
+        <nav class="pc_only">
             <ul>
                 <li><a href="#">ホーム</a></li>
                 <li><a href="company/">会社概要</a></li>
@@ -22,6 +22,31 @@
                 <li><a href="contact/">お問合せ</a></li>
             </ul>
         </nav>
+
+        <nav id="nav" class="sp_only">
+            <div class="nav_wrap">
+                <a href="#"><img src="assets/img/logo_white.svg" alt="A.M.Uのロゴ"></a>
+
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">CONCEPT</a></li>
+                    <li><a href="#service">SERVICE</a></li>
+                    <li><a href="#company">COMPANY</a></li>
+                </ul>
+
+                <a class="cta" href="contact/">CONTACT FOAM</a>
+
+                <div class="link">
+                    <a href="mailto:itou@amutc.jp">itou@amutc.jp</a>
+                    <a href="tel:03-6695-6756">tel.03-6695-6756</a>
+                </div>
+            </div>
+        </nav>
+        <div id="hamburger" class="sp_only">
+            <span class="inner_line" id="line1"></span>
+            <span class="inner_line" id="line2"></span>
+            <span class="inner_line" id="line3"></span>
+        </div>  
     </header>
 
     <main>
@@ -45,19 +70,22 @@
         </section>
 
         <section id="concept">
+            <h2 class="sp_only">CONCEPT</h2>
             <figure>
                 <picture>
                     <img src="assets/img/top/concept_img.jpg" alt="コンセプト">
                 </picture>
 
                 <figcaption>
-                    <h2>CONCEPT</h2>
+                    <h2 class="pc_only">CONCEPT</h2>
 
                     <p>
                         お客様とお客様のご家族までもが<br/>
-                        私たちにとってはお客様です。<br/>
+                        私たちにとってはお客様です。
+                    </p>
+                    <p>
                         社会の変化に機敏に対応することで<br/>
-                        お客様に良質なサービスを提供いたします。<br/>
+                        お客様に良質なサービスを提供いたします。
                     </p>
                 </figcaption>
             </figure>
@@ -77,6 +105,10 @@
 
         <section id="service">
             <h2>SERVICE</h2>
+
+            <picture>
+                <img class="sp_only" src="assets/img/top/service_hero.jpg" alt="SERVICE">
+            </picture>
 
             <ul class="wrap">
                 <li>
@@ -130,7 +162,7 @@
                 </li>
             </ul>
 
-            <div class="img_list">
+            <div class="img_list pc_flex">
                 <picture>
                     <img src="assets/img/top/service_imglist01.jpg" alt="">
                 </picture>
@@ -156,8 +188,8 @@
                 </picture>
 
                 <p>
-                    私たちは不動産事業を通じ、新しい価値を創造し続け<br/>
-                    地域の発展に寄与し、豊かな暮らしと文化に貢献します。
+                    私たちは不動産事業を通じ、<br class="sp_only"/>新しい価値を創造し続け<br/>
+                    地域の発展に寄与し、<br class="sp_only"/>豊かな暮らしと文化に貢献します。
                 </p>
             </div>
         </section>
@@ -175,7 +207,7 @@
                     <div><h3>TEL</h3><p>03-5725-2435</p></div>
                     <div><h3>資本金</h3><p>●●万円</p></div>
                     <div><h3>従業員数</h3><p>●●人</p></div>
-                    <div><h3>事業内容</h3><p>建築<br/>中古マンションのリノベーション含む販売</p></div>
+                    <div><h3>事業内容</h3><p>建築<br/>中古マンションの<br class="sp_only"/>リノベーション含む販売</p></div>
                 </div>
             </div>
             <div class="more_wrap">
@@ -184,13 +216,15 @@
         </section>
 
         <section id="recruit">
+            <h2 class="sp_only">RECRUIT</h2>
+
             <figure>
                 <picture>
                     <img src="assets/img/top/recruit_img.jpg" alt="RECRUIT">
                 </picture>
 
                 <figcaption>
-                    <h2>RECRUIT</h2>
+                    <h2 class="pc_only">RECRUIT</h2>
 
                     <p>
                         私たちは、チャレンジ精神を忘れず、<br/>
@@ -205,18 +239,19 @@
         </section>
 
         <section id="contact">
+            <h2 class="sp_only">CONTACT</h2>
             <figure>
                 <picture>
                     <img src="assets/img/top/contact_img.jpg" alt="CONTACT">
                 </picture>
 
                 <figcaption>
-                    <h2>CONTACT</h2>
+                    <h2 class="pc_only">CONTACT</h2>
 
-                    <p>不動産のことでお悩みありましたら、お気軽にご相談ください。</p>
+                    <p>不動産のことでお悩みありましたら、<br class="sp_only"/>お気軽にご相談ください。</p>
 
                     <div class="more_wrap">
-                        <a class="more" href="">VIEW MORE</a>
+                        <a class="more" href="">CONTACT</a>
                     </div>
                 </figcaption>
             </figure>

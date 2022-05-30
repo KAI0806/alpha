@@ -84,7 +84,7 @@
 }
 
 #info .wrap .left{
-    width: 2    5%;
+    width: 35%;
 }
 
 #info .wrap .right{
@@ -123,4 +123,101 @@
 #info img{
     width: 100%;
     margin-top: 5.51rem;
+}
+
+@media screen and (max-width: 767px){
+    #phil{
+        margin: 5.4rem auto 0;
+        width: 79.2%;
+        padding-bottom: 21.4rem;
+        overflow: hidden;
+    }
+
+    #phil::before{
+        width: 37.5rem;
+        height: 24.9rem;
+        top: 65%;
+        transform: translate(-39%, -50%);
+    }
+
+    #phil::after{
+        width: 29.1rem;
+        height: 16.6rem;
+        right: 0;
+        transform: translate(43%, 0);
+        overflow-x: hidden;
+    }
+
+    #phil h3{
+        font-size: 2rem;
+        margin-bottom: 6.5rem;
+    }
+
+    #phil h3::before{
+        width: 9.5rem;
+        right: -.5rem;
+        transform: translate(100%, -.5rem);
+    }
+
+    #phil h2{
+        margin-bottom: 5.8rem;
+    }
+
+    #phil p{
+        width: 90%;
+        margin: auto;
+    }
+
+    /* info */
+    #info{
+        padding-top: 6rem;
+        width: 100%;
+        padding-bottom: 3.1rem;
+    }
+
+    #info h2{
+        margin-left: 5rem;
+        margin-bottom: 3rem;
+        transform: none;
+    }
+
+    #info .wrap{
+        flex-direction: column;
+        width: 70%;
+        margin: auto;
+        margin-bottom: 4rem;
+    }
+
+    #info .wrap .left{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    #info .wrap .right{
+        width: 100%;
+    }
+
+    #info .wrap > div div::before{
+        width: 100%;
+    }
+
+    #info .wrap .right > div:last-child::before{
+        display: none;
+    }
+
+    #info .wrap > div h3{
+        width: 9.2rem;
+        font-size: 1.4rem;
+    }
+
+    #info picture{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #info img{
+        width: 79.2%;
+        margin: 3.2rem auto 0; 
+    }
 }

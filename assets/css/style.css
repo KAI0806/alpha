@@ -57,6 +57,7 @@ h2{
 #concept figure img{
     width: 73.7rem;
     margin-right: 8.8rem;
+    box-shadow: 0 .3rem .6rem rgba(112, 112, 112, 44%);
 }
 
 #concept figure figcaption h2{
@@ -244,6 +245,7 @@ h2{
 
 #recruit figure picture img{
     width: 100%;
+    box-shadow: 0 .3rem .6rem rgba(112, 112, 112, 44%);
 }
 
 #recruit figure figcaption{
@@ -292,4 +294,254 @@ h2{
 
 #contact figure .more_wrap a{
     transform: translateX(100%);
+}
+
+@media screen and (max-width: 767px){
+    h2{
+        font-size: 2.4rem;
+    }
+
+    #mv{
+        height: calc(100vh - 5.2rem);
+    }
+
+    #mv #video-area{
+        width: auto;
+        height: 100%;
+    }
+
+    #mv #video-area #video{
+        width: auto;
+        height: 100%;
+    }
+
+    #mv h1{
+        font-size: 5.3rem;
+        letter-spacing: .5rem;
+    }
+
+    #mv h1 small{
+        font-size: 1.7rem;
+        letter-spacing: .2rem;
+    }
+
+    /* concept */
+    #concept{
+        padding-top: 7.7rem;
+        width: 100%;
+    }
+
+    #concept h2{
+        margin-bottom: 1.5rem;
+        margin-left: 4.8rem;
+    }
+
+    #concept figure{
+        flex-direction: column;
+    }
+
+    #concept figure img{
+        width: 100%;
+        margin-bottom: 3.9rem;
+        margin-right: auto;
+    }
+
+    #concept figure figcaption p+p{
+        margin-top: 5.9rem;
+    }
+
+    /* service */
+    #service{
+        padding-top: 11.2rem;
+        width: 100%;
+    }
+
+    #service picture img{
+        width: 100%;
+        margin-bottom: 6.3rem;
+        box-shadow: 0 .3rem .6rem rgba(112, 112, 112, 33%);
+    }
+
+    #service h2{
+        margin-left: 4.8rem;
+        transform: none;
+        margin-bottom: 4.4rem;
+    }
+
+    #service .wrap{
+        flex-direction: column;
+    }
+
+    #service .wrap li dd img{
+        margin-bottom: 2.2rem;
+    }
+
+    #service .wrap li{
+        width: 83.47%;
+        margin: auto;
+        margin-bottom: 5.5rem;
+    }
+
+    #service .wrap li:nth-child(odd){
+        margin-right: auto;
+    }
+
+    #service .wrap li dt{
+        width: 91.37%;
+        font-size: 1.6rem;
+        margin-bottom: 1.8rem;
+    }
+
+    #service .wrap li .content{
+        width: 91.37%;
+        font-size: 1.4rem;
+        line-height: 2;
+    }
+
+    /* mission */
+    #mission{
+        padding-top: 12.3rem;
+        width: 100%;
+        padding-bottom: 32.8rem;
+        overflow-x: hidden;
+    }
+
+    #mission h2{
+        margin-bottom: 6rem;
+        margin-left: 4.9rem;
+    }
+
+    #mission .wrap{
+        position: relative;
+        width: 65%;
+        margin: auto;
+        
+    }
+
+    #mission .wrap picture{
+        position: absolute;
+        margin: auto;
+        width: 37.5rem;
+        top: 2.7rem;
+        left: 4.3rem;
+    }
+
+    #mission .wrap picture::before{
+        width: 28.1rem;
+        height: 12.2rem;
+        bottom: -14rem;
+        left: -10.85rem;
+    }
+
+    #mission .wrap p{
+        margin-top: 0;
+        text-align: left;
+        position: relative;
+        z-index: 10;
+        line-height: 2.5;
+    }
+
+    #info{
+        width: 100%;
+    }
+
+    #info h2{
+        transform: none;
+        margin-left: 3rem;
+        margin-bottom: 4.5rem;
+    }
+
+    #info h2::before{
+        width: 25.6rem;
+    }
+
+    #info .wrap{
+        flex-direction: column;
+        width: 75.47%;
+        margin: auto;
+    }
+
+    #info .wrap .left{
+        width: 100%;
+    }
+
+    #info .wrap .right{
+        width: 100%;
+    }
+
+    #info .wrap .right > div:last-child::before{
+        display: none;
+        margin-bottom: 5rem;
+    }
+
+    #info .wrap > div h3{
+        width: 9.4rem;
+        font-size: 1.4rem;
+    }
+
+    /* recruit */
+    #recruit{
+        padding-top: 10.7rem;
+        width: 100%;
+    }
+
+    #recruit > h2{
+        margin-left: 5rem;
+        margin-bottom: 3.7rem;
+    }
+
+    #recruit figure{
+        flex-direction: column;
+    }
+
+    #recruit figure picture{
+        width: 100%;
+        margin-right: auto;
+        margin-bottom: 5.4rem;
+    }
+
+    #recruit figure figcaption{
+        width: 100%;
+    }
+
+    #recruit figure figcaption p{
+        margin: auto;
+        margin-bottom: 4.4rem;
+        width: 79.2%;
+    }
+
+    /* contact */
+
+    #contact{
+        width: 100%;
+        padding-top: 10.4rem;
+    }
+
+    #contact h2{
+        margin-bottom: 1.6rem;
+    }
+
+    #contact figure{
+        flex-direction: column;
+    }
+
+    #contact figure picture{
+        width: 100%;
+        margin-left: auto;
+        margin-bottom: 3.4rem;
+    }
+
+    #contact figure figcaption{
+        width: 100%;
+    }
+
+    #contact figure p{
+        width: 79.2%;
+        margin: auto;
+        margin-bottom: 3.3rem;
+    }
+
+    #contact figure .more_wrap a{
+        transform: none;
+    }
 }

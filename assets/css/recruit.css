@@ -120,3 +120,99 @@
     width: 50%;
     margin: 10.7rem auto 7.1rem;
 }
+
+@media screen and (max-width: 767px){
+    #philo{
+        padding: 6.1rem 0 0;
+        background: none;
+    }
+
+    #philo h3{
+        font-size: 2rem;
+        margin-left: 2.3rem;
+        transform: none;
+        margin-bottom: 4.7rem;
+    }
+
+    #philo h3::before{
+        width: 8.5rem;
+    }
+
+    #philo figure{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #philo figure img{
+        width: 22rem;
+        margin-bottom: 8.1rem;
+    }
+
+    #philo figure figcaption{
+        margin-right: 0;
+        width: 76.27%;
+    }
+
+    #philo figure figcaption h2{
+        margin-bottom: 3.9rem;
+    }
+
+    #philo figure figcaption h2::before{
+        width: 8.3rem;
+    }
+
+    #philo figure figcaption p+p{
+        margin-top: 2.9rem;
+    }
+
+    /* recruit */
+    #recruit{
+        padding-top: 5.1rem;
+        width: 100%;
+    }
+
+    #recruit figure{
+        flex-direction: column-reverse;
+        margin-bottom: 3.8rem;
+    }
+
+    #recruit figure picture{
+        width: 100%;
+    }
+
+    #recruit picture img{
+        width: 100%;
+        margin: 0 auto 3.7rem;
+    }
+
+    #recruit figure figcaption{
+        width: 76.27%;
+        margin: auto;
+    }
+
+    #recruit figure figcaption h2{
+        margin-bottom: 2rem;
+    }
+
+    #recruit figure figcaption h2::before{
+        width: 100%;
+    }
+
+    #recruit figure figcaption .wrap{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #recruit figure figcaption .wrap div{
+        padding-bottom: 1.5rem;
+        margin-bottom: 1.3rem;
+    }
+
+    #recruit > picture{
+        margin: 3.2rem auto 0;
+    }
+
+    #recruit > picture img{
+        width: 79.2%;
+    }
+}
