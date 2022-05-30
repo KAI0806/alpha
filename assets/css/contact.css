@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+h2::before{
+    width: 28.3rem;
+    height: .1rem;
+}
+
+#tel_fax{
+    width: 65.26%;
+    margin: auto;
+    padding-top: 10.66rem;
+}
+
+#tel_fax h2{
+    margin-bottom: 4.5rem;
+}
+
+#tel_fax .wrap{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 19.7rem;
+}
+
+#tel_fax .wrap p:last-child{
+    margin-left: 11.3rem;
+}
+
+#tel_fax .wrap a{
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #707070;
+    position: relative;
+    padding-bottom: .5rem;
+    transition: all .32 ease-in-out;
+}
+
+#tel_fax .wrap a::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: .2rem;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to right, #F75D19, #DB8511, #FEFEFE);
+}
+
+#tel_fax .wrap a:hover{
+    opacity: .4;
+    transition: all .3s ease-in-out;
+}
+
+/* form */
+#form{
+    width: 65.26%;
+    margin: auto;
+    padding-top: 9.5rem;
+    padding-bottom: 7rem;
+}
+
+#form h2{
+    margin-bottom: 7.6rem;
+}
+
+#form .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 5.4rem;
+}
+
+#form label, .col-sm-2{
+    font-size: 2.4rem;
+    color: #707070;
+    font-weight: normal;
+    width: 20.51%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#form label > span, .col-sm-2 span{
+    display: inline-block;
+    color: white;
+    background: #E3A451;
+    width: 6rem;
+    padding: .6rem 0;
+    font-size: 2rem;
+    font-family: 'Noto Sans CJK JP';
+    text-align: center;
+}
+
+#form input{
+    width: 71.35%;
+    height: 5.4rem;
+    padding: 0;
+    border: .1rem solid #EEEEEE;
+    background: white;
+}
+
+fieldset{
+    border: none;
+}
+
+fieldset .col-sm-10{
+    width: 71.35%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#form fieldset .col-sm-10 label{
+    font-size: 2rem;
+    font-weight: 600;
+    display: inline-block;
+}
+
+#form fieldset .col-sm-10 input{
+    width: 2.16rem;
+    height: 2.16rem;
+    vertical-align: text-bottom;
+}
+
+#form textarea{
+    width: 71.35%;
+    padding: 0;
+    border: .1rem solid #EEEEEE;
+    background: white;
+    height: 25.3rem;
+}
+
+#form button{
+    width: 28.1rem;
+    padding: 1.15rem 0;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+    font-weight: 600;
+    color: #2B2E35;
+    background: white;
+    border: .1rem solid #EEEEEE;
+    box-shadow: 0 .3rem .6rem rgba(0, 0, 0, 16%);
+    font-family: "游明朝", 'YuMincho', "Hiragino Mincho ProN", "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}

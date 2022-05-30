@@ -11,6 +11,8 @@
     position: relative;
     width: max-content;
     margin-left: 50%;
+    color: #707070;
+    font-weight: 600;
     transform: translateX(-50%);
 }
 

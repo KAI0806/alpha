@@ -27,6 +27,7 @@
 #title figure figcaption h2{
     margin-bottom: 11.7rem;
     margin-left: 5.6rem;
+    line-height: 1.5;
 }
 
 #title figure figcaption h2::before{

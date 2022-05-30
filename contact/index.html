@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お問合せ｜株式会社ALPHA</title>
+
+    <!-- フォント -->
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'ykx6mzp',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
+      
+    <!-- css -->
+    <link rel="stylesheet" href="../assets/css/application.css">
+    <link rel="stylesheet" href="../assets/css/contact.css">
+
+    <script src="https://sdk.form.run/js/v2/formrun.js"></script>
+</head>
+<body>
+    <header>
+        <h1><a href="../"><img src="../assets/img/common/logo.svg" alt="株式会社ALPHAのロゴ">株式会社ALPHA</a></h1>
+        
+        <nav>
+            <ul>
+                <li><a href="../">ホーム</a></li>
+                <li><a href="#">会社概要</a></li>
+                <li><a href="../service/">事業内容</a></li>
+                <li><a href="../recruit/">採用情報</a></li>
+                <li><a href="../contact/">お問合せ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="kv">
+            <h2>CONTACT</h2>
+        </section>
+
+        <section id="tel_fax">
+            <h2>お電話でのお問い合わせ</h2>
+
+            <div class="wrap">
+                <p>TEL　<a href="tel:03-5725-2435">03-5725-2435</a></p>
+                <p>FAX　<a href="tel:03-5725-2310">03-5725-2310</a></p>
+            </div>
+        </section>
+
+        <section id="form">
+            <h2>メールでのお問い合わせ</h2>
+
+            <!-- class, action, methodを変更しないでください -->
+            <form class="formrun" action="https://form.run/api/v1/r/7t6bf79f24hmp9us2tibx29f" method="post">
+                <!-- ↓自由に要素を追加・編集することができます -->
+                <div class="row">
+                    <label for="name">氏名　<span>必須</span></label>
+                    <input id="name" name="氏名" type="text">
+                </div>
+            
+                <div class="row">
+                    <label for="mail">メールアドレス <span>必須</span></label>
+                    <input id="mail" name="メールアドレス" type="text" data-formrun-type="email" data-formrun-required>
+                    <div data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
+                </div>
+
+                <div class="row">
+                    <label for="tel">電話番号</label>
+                    <input id="tel" type="text" name="電話番号" data-formrun-type="tel">
+                </div>
+
+                <fieldset class="row">
+                    <span class="col-sm-2">お問合せ種別 <span>必須</span></span>
+                    <div class="col-sm-10">
+                      <label class="form-check-label form-check-inline">
+                        <input class="form-check-input" type="radio" name="お問合せ種別" value="ご質問" data-formrun-required>
+                        ご質問
+                      </label>
+                      <label class="form-check-label form-check-inline">
+                        <input class="form-check-input" type="radio" name="お問合せ種別" value="ご相談" data-formrun-required>
+                        ご相談
+                      </label>
+                      <label class="form-check-label form-check-inline">
+                        <input class="form-check-input" type="radio" name="お問合せ種別" value="ご依頼" data-formrun-required>
+                        ご依頼
+                      </label>
+                      <label class="form-check-label form-check-inline">
+                        <input class="form-check-input" type="radio" name="お問合せ種別" value="その他" data-formrun-required>
+                        その他
+                      </label>
+                      <br>
+                      <span class="text-danger" data-formrun-show-if-error="お問合せ種別">お問合せ種別を選択してください</span>
+                    </div>
+                  </fieldset>
+            
+                <div class="row">
+                    <label>お問い合わせ内容</label>
+                    <textarea name="お問い合わせ内容" data-formrun-required></textarea>
+                    <div data-formrun-show-if-error="お問い合わせ内容">お問い合わせ内容を入力してください</div>
+                </div>
+            
+                <!-- ボット投稿をブロックするためのタグ -->
+                <div class="_formrun_gotcha">
+                    <style media="screen">._formrun_gotcha {position:absolute!important;height:1px;width:1px;overflow:hidden;}</style>
+                    <label for="_formrun_gotcha">If you are a human, ignore this field</label>
+                    <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
+                </div>
+            
+                <button type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="wrap">
+            <div>
+                <a href="../">株式会社ALPHA</a>
+            </div>
+
+            <div class="address">
+                <p>
+                    〒152-0003<br/>
+                    東京都目黒区碑文谷4丁目24番13号<br/>
+                    TEL <a href="tel:03-5725-2435">03-5725-2435</a>
+                </p>
+            </div>
+        </div>
+        <p class="copy">&copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> ALPHA Co., ltd.</p>
+    </footer>
+</body>
+</html>
