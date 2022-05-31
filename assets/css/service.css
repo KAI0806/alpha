@@ -60,11 +60,11 @@
     align-items: center;
 }
 
-#serv01 figure picture, #serv02 figure picture{
+#serv01 figure > picture, #serv02 figure > picture{
     width: 42.8%;
 }
 
-#serv01 figure picture img, #serv02 figure picture img{
+#serv01 figure > picture img, #serv02 figure > picture img{
     width: 100%;
 }
 
@@ -106,6 +106,27 @@
 
 #serv01 figure figcaption .slider img, #serv02 figure figcaption .slider img{
     width: 38.7rem;
+}
+
+.serv01_slider{
+    padding-left: 7.3rem;
+}
+
+.serv01_slider .slide{
+    margin-right: 1.6rem;
+    width: 38.7rem;
+}
+
+.serv01_slider .slide img{
+    width: 100%;
+}
+
+.slide-arrow{
+    width: 3.527rem;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 /* serv03-05 */
@@ -198,4 +219,175 @@
 
 .foot_img .more{
     margin-right: 12.7rem;
+}
+
+@media screen and (max-width: 767px){
+    main{
+        overflow-x: hidden;
+    }
+
+    #title{
+        padding-top: 4.5rem;
+    }
+
+    #title figure{
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 83.47%;
+        margin: auto;
+    }
+
+    #title figure figcaption{
+        width: 100%;
+        margin-left: auto;
+    }
+
+    #title figure figcaption h2{
+        margin-left: 1.6rem;
+        margin-bottom: 6.7rem;
+        font-size: 2rem;
+    }
+
+    #title figure figcaption h2::before{
+        width: 13.4rem;
+        transform: translate(55%, -1.3rem);
+    }
+
+    #title figure > picture{
+        width: 100%;
+        margin-left: auto;
+    }
+
+    /* serv01, serv02 */
+    #serv01, #serv02{
+        padding-top: 7rem;
+        width: 83.47%;
+    }
+
+    .title_slider{
+        margin-top: 4.5rem;
+    }
+
+    #serv01 h2, #serv02 h2{
+        margin-left: 1.6rem;
+    }
+
+    #serv01 figure, #serv02 figure{
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+    #serv01 figure picture, #serv02 figure picture{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    #serv01 figure figcaption, #serv02 figure figcaption{
+        width: 100%;
+    }
+
+    #serv01 figure figcaption h3, #serv02 figure figcaption h3{
+        margin-left: auto;
+        margin-bottom: 3.6rem;
+        transform: none;
+        font-size: 2rem;
+        width: unset;
+    }
+
+    #serv01 figure figcaption h3::before, #serv02 figure figcaption h3::before{
+        transform: translate(80%, -1rem);
+        right: unset;
+        left: 50%;
+        width: 8.8rem;
+    }
+
+    #serv01 figure figcaption p, #serv02 figure figcaption p{
+        margin-bottom: 3.7rem;
+    }
+
+    #serv01 figure figcaption .slider img, #serv02 figure figcaption .slider img{
+        width: 21rem;
+    }
+
+    .serv01_slider{
+        padding-left: 4.5rem;
+        transform: translateX(10%);
+    }
+    
+    .serv01_slider .slide{
+        margin-right: .9rem;
+    }
+    
+    .serv01_slider .slide img{
+        width: 100%;
+    }
+    
+    .slide-arrow{
+        width: 3rem;
+    }
+
+    /* #serv03, #serv04, #serv05 */
+    #serv03, #serv04, #serv05{
+        padding-top: 7rem;
+        width: 83.47%;
+    }
+
+    #serv03 h2, #serv04 h2, #serv05 h2{
+        margin-bottom: 2.1rem;
+        margin-left: 1.6rem;
+    }
+
+    #serv03 figure, #serv04 figure, #serv05 figure{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #serv03 figure picture, #serv04 figure picture, #serv05 figure picture{
+        width: 100%;
+        margin-bottom: 2.8rem;
+    }
+
+    #serv03 figure figcaption, #serv04 figure figcaption, #serv05 figure figcaption{
+        width: 100%;
+    }
+
+    #serv03 figure figcaption h3, #serv04 figure figcaption h3, #serv05 figure figcaption h3{
+        font-size: 2rem;
+        margin-bottom: 5rem;
+    }
+
+    #serv03 figure figcaption h3::before, #serv04 figure figcaption h3::before, #serv05 figure figcaption h3::before{
+        width: 8.8rem;
+    }
+
+    .foot_message{
+        margin: 7.5rem auto 4.2rem;
+        width: 83.47%;
+        justify-content: flex-start;
+    }
+
+    .foot_message h3{
+        font-size: 2rem;
+        margin-left: 1.6rem;
+    }
+
+    .foot_message h3::before{
+        width: 8.8rem;
+        right: 0;
+        transform: translate(100%, -.5rem);
+    }
+
+    .foot_img{
+        width: 83.47%;
+        padding-bottom: 3.6rem;
+    }
+
+    .foot_img .more_wrap{
+        margin-bottom: 3.9rem;
+    }
+
+    .foot_img .more{
+        margin-right: 8.2rem;
+    }
 }

@@ -16,7 +16,7 @@
           },
           h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
         })(document);
-      </script>
+    </script>
 
     <link rel="stylesheet" href="../assets/css/application.css">
     <link rel="stylesheet" href="../assets/css/company.css">
@@ -28,38 +28,40 @@
         <nav class="pc_only">
             <ul>
                 <li><a href="../">ホーム</a></li>
-                <li><a href="#">会社概要</a></li>
-                <li><a href="../service/">事業内容</a></li>
+                <li><a href="../company/">会社概要</a></li>
+                <li><a href="#">事業内容</a></li>
                 <li><a href="../recruit/">採用情報</a></li>
                 <li><a href="../contact/">お問合せ</a></li>
             </ul>
         </nav>
 
-        <nav id="nav" class="sp_only">
-            <div class="nav_wrap">
-                <a href="../"><img src="../assets/img/logo_white.svg" alt="A.M.Uのロゴ"></a>
-
-                <ul>
-                    <li><a href="../">HOME</a></li>
-                    <li><a href="#">CONCEPT</a></li>
-                    <li><a href="#service">SERVICE</a></li>
-                    <li><a href="#company">COMPANY</a></li>
-                </ul>
-
-                <a class="cta" href="contact/">CONTACT FOAM</a>
-
-                <div class="link">
-                    <a href="mailto:itou@amutc.jp">itou@amutc.jp</a>
-                    <a href="tel:03-6695-6756">tel.03-6695-6756</a>
-                </div>
-            </div>
-        </nav>
         <div id="hamburger" class="sp_only">
-            <span class="inner_line" id="line1"></span>
+            <span class="inner_line" id="line1">MENU</span>
             <span class="inner_line" id="line2"></span>
             <span class="inner_line" id="line3"></span>
         </div>  
     </header>
+
+    <nav id="nav" class="sp_only">
+        <div class="nav_wrap">
+            <ul>
+                <li><a href="../">ホーム</a></li>
+                <li><a href="#">会社概要</a></li>
+                <li><a href="../service/">事業内容</a></li>
+                <li><a href="../recruit/">採用情報</a></li>
+                <li><a href="../contact/">お問い合わせ</a></li>
+            </ul>
+
+            <div class="nav_link">
+                <a href="../">ALPHA</a>
+                <p>
+                    〒152-0003<br/>
+                    東京都目黒区碑文谷4丁目24番13号<br/>
+                    TEL 03-5725-2435
+                </p>                    
+            </div>
+        </div>
+    </nav>
 
     <main>
         <section id="kv">
@@ -123,5 +125,7 @@
         </div>
         <p class="copy">&copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> ALPHA Co., ltd.</p>
     </footer>
+
+    <script src="../assets/js/app.js"></script>
 </body>
 </html>

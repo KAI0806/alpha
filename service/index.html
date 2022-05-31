@@ -18,23 +18,54 @@
         })(document);
       </script>
 
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link rel="stylesheet" href="../assets/css/application.css">
     <link rel="stylesheet" href="../assets/css/service.css">
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
     <header>
         <h1><a href="../"><img src="../assets/img/common/logo.svg" alt="株式会社ALPHAのロゴ">株式会社ALPHA</a></h1>
         
-        <nav>
+        <nav class="pc_only">
             <ul>
                 <li><a href="../">ホーム</a></li>
-                <li><a href="#">会社概要</a></li>
-                <li><a href="../service/">事業内容</a></li>
+                <li><a href="../company/">会社概要</a></li>
+                <li><a href="#">事業内容</a></li>
                 <li><a href="../recruit/">採用情報</a></li>
                 <li><a href="../contact/">お問合せ</a></li>
             </ul>
         </nav>
+
+        <div id="hamburger" class="sp_only">
+            <span class="inner_line" id="line1">MENU</span>
+            <span class="inner_line" id="line2"></span>
+            <span class="inner_line" id="line3"></span>
+        </div>  
     </header>
+
+    <nav id="nav" class="sp_only">
+        <div class="nav_wrap">
+            <ul>
+                <li><a href="../">ホーム</a></li>
+                <li><a href="../company/">会社概要</a></li>
+                <li><a href="#">事業内容</a></li>
+                <li><a href="../recruit/">採用情報</a></li>
+                <li><a href="../contact/">お問い合わせ</a></li>
+            </ul>
+
+            <div class="nav_link">
+                <a href="../">ALPHA</a>
+                <p>
+                    〒152-0003<br/>
+                    東京都目黒区碑文谷4丁目24番13号<br/>
+                    TEL 03-5725-2435
+                </p>                    
+            </div>
+        </div>
+    </nav>
 
     <main>
         <section id="kv">
@@ -49,16 +80,39 @@
 
                 <figcaption>
                     <h2>お客様目線を忘れず<br/>
-                        　　常に変化に敏感に対応し<br/>
-                        　　　　　　上質なサービスを</h2>
+                        <span class="pc_inline">　　</span>常に変化に敏感に対応し<br/>
+                        <span class="pc_inline">　　　　　　</span>上質なサービスを</h2>
 
-                    <div>
+                    <div class="pc_only">
                         <picture>
                             <img src="../assets/img/service/service_in_img.jpg" alt="サービス概要">
                         </picture>
                     </div>
                 </figcaption>
             </figure>
+
+            <div class="title_slider sp_only">
+                <div class="slide">
+                    <picture>
+                        <img src="../assets/img/top/img_slide03.jpg" alt="イメージ1">
+                    </picture>
+                </div>
+                <div class="slide">
+                    <picture>
+                        <img src="../assets/img/top/img_slide04.jpg" alt="イメージ2">
+                    </picture>
+                </div>
+                <div class="slide">
+                    <picture>
+                        <img src="../assets/img/top/img_slide03.jpg" alt="イメージ3">
+                    </picture>
+                </div>
+                <div class="slide">
+                    <picture>
+                        <img src="../assets/img/top/img_slide04.jpg" alt="イメージ4">
+                    </picture>
+                </div>
+            </div>
         </section>
 
         <section id="serv01">
@@ -74,19 +128,32 @@
                     
                     <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
 
-                    <div class="slider">
-                        <picture>
-                            <img src="../assets/img/service/serv01_slide01.jpg" alt="イメージ1">
-                        </picture>
-                        <picture>
-                            <img src="" alt="">
-                        </picture>
-                        <picture>
-                            <img src="" alt="">
-                        </picture>
-                        <picture>
-                            <img src="" alt="">
-                        </picture>
+                    <div class="serv01_slider" dir="rtl">
+                        <div class="slide">
+                            <picture>
+                                <img src="../assets/img/service/serv01_slide01.jpg" alt="イメージ1">
+                            </picture>
+                        </div>
+                        <div class="slide">
+                            <picture>
+                                <img src="../assets/img/service/serv01_slide02.jpg" alt="イメージ2">
+                            </picture>
+                        </div>
+                        <div class="slide">
+                            <picture>
+                                <img src="../assets/img/service/serv01_slide03.jpg" alt="イメージ3">
+                            </picture>
+                        </div>
+                        <div class="slide">
+                            <picture>
+                                <img src="../assets/img/service/serv01_slide04.jpg" alt="イメージ4">
+                            </picture>
+                        </div>
+                        <div class="slide">
+                            <picture>
+                                <img src="../assets/img/service/serv01_slide05.jpg" alt="イメージ5">
+                            </picture>
+                        </div>
                     </div>
                 </figcaption>
             </figure>
@@ -105,19 +172,23 @@
                     
                     <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
 
-                    <div class="slider">
-                        <picture>
-                            <img src="../assets/img/service/serv02_slide01.jpg" alt="イメージ1">
-                        </picture>
-                        <picture>
-                            <img src="" alt="">
-                        </picture>
-                        <picture>
-                            <img src="" alt="">
-                        </picture>
-                        <picture>
-                            <img src="" alt="">
-                        </picture>
+                    <div class="serv01_slider" dir="rtl">
+                        <div class="slide">
+                            <picture>
+                                <img src="../assets/img/service/serv02_slide01.jpg" alt="イメージ1">
+                            </picture>
+                        </div>
+                        <div class="slide">
+                            <picture>
+                                <img src="../assets/img/service/serv02_slide02.jpg" alt="イメージ2">
+                            </picture>
+                        </div>
+                        <div class="slide">
+                            <picture>
+                                <img src="../assets/img/service/serv02_slide03.jpg" alt="イメージ3">
+                            </picture>
+                        </div>
+                        
                     </div>
                 </figcaption>
             </figure>
@@ -206,5 +277,9 @@
         </div>
         <p class="copy">&copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> ALPHA Co., ltd.</p>
     </footer>
+
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="../assets/js/slide.js"></script>
+    <script src="../assets/js/app.js"></script>
 </body>
 </html>
