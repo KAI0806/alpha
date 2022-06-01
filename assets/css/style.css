@@ -189,8 +189,11 @@ h2{
 #mission .wrap picture{
     margin-left: 28.4rem;
     position: relative;
-    width: 51rem;
     height: max-content;
+}
+
+#mission .wrap picture img{
+    width: 51rem;
 }
 
 #mission .wrap picture::before{
@@ -334,6 +337,30 @@ h2{
 
 #contact figure .more_wrap a{
     transform: translateX(100%);
+}
+
+@media screen and (max-width: 1280px){
+    #mv #video-area{
+        width: auto;
+        height: 100%;
+    }
+
+    #mv #video-area #video{
+        width: auto;
+        height: 100%;
+    }
+
+    #info .wrap .left{
+        width: 35%;
+    }
+
+    #info .wrap .right{
+        width: 50%;
+    }
+
+    #info .wrap > div h3{
+        width: 15rem;
+    }
 }
 
 @media screen and (max-width: 767px){

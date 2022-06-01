@@ -125,6 +125,24 @@
     margin-top: 5.51rem;
 }
 
+@media screen and (max-width: 1280px){
+    #info{
+        width: 70%;
+    }
+
+    #info .wrap .left{
+        width: 35%;
+    }
+
+    #info .wrap .right{
+        width: 50%;
+    }
+
+    #info .wrap > div h3{
+        width: 15rem;
+    }
+}
+
 @media screen and (max-width: 767px){
     #phil{
         margin: 5.4rem auto 0;
