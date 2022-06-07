@@ -96,6 +96,7 @@ h2::before{
     padding: 0;
     border: .1rem solid #EEEEEE;
     background: white;
+    border-radius: 0;
 }
 
 fieldset{
@@ -127,6 +128,7 @@ fieldset .col-sm-10{
     border: .1rem solid #EEEEEE;
     background: white;
     height: 25.3rem;
+    border-radius: 0;
 }
 
 #form button{
