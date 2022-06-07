@@ -45,7 +45,7 @@ h2{
 #mv h1 small::before{
     content: "";
     position: absolute;
-    width: 22rem;
+    width: 20.4rem;
     height: .1rem;
     right: 0;
     bottom: 0;
@@ -183,7 +183,7 @@ h2{
 /* mission */
 
 #mission{
-    padding-top: 36.2rem;
+    padding-top: 21.2rem;
     width: 70.5%;
     margin: auto;
 }
