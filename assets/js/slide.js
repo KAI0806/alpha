@@ -7,8 +7,8 @@ $('.top_slider').slick({
     pauseOnFocus: false,//フォーカスで一時停止
     pauseOnHover: false,//マウスホバーで一時停止
     pauseOnDotsHover: false,
-    prevArrow: '<img src="assets/img/top/left_arrow.svg" class="slide-arrow prev-arrow">',
-    nextArrow: '<img src="assets/img/top/right_arrow.svg" class="slide-arrow next-arrow">',
+    prevArrow: '<img src="assets/img/top/left_arrow.svg" class="slide-arrow next-arrow">',
+    nextArrow: '<img src="assets/img/top/right_arrow.svg" class="slide-arrow prev-arrow">',
     responsive:[{
         breakpoint: 767,
         settings: {

@@ -39,6 +39,18 @@ h2{
 
 #mv h1 small{
     font-size: 3.3rem;
+    position: relative;
+}
+
+#mv h1 small::before{
+    content: "";
+    position: absolute;
+    width: 22rem;
+    height: .1rem;
+    right: 0;
+    bottom: 0;
+    transform: translate(100%, -.5rem);
+    background:  linear-gradient(to right, #F75D19, #DB8511, #FEFEFE);
 }
 
 /* concept */
@@ -90,11 +102,11 @@ h2{
 }
 
 .prev-arrow{
-    transform: translateX(-150%);
+    transform: translateX(50%);
 }
 
 .next-arrow{
-    transform: translateX(50%);
+    transform: translateX(-150%);
 }
 
 .top_slider::before{
@@ -343,11 +355,13 @@ h2{
     #mv #video-area{
         width: auto;
         height: 100%;
+        background: #b9b8b8;
     }
 
     #mv #video-area #video{
         width: auto;
         height: 100%;
+        transform: translateX(-36%);
     }
 
     #info .wrap .left{
@@ -390,6 +404,10 @@ h2{
     #mv h1 small{
         font-size: 1.7rem;
         letter-spacing: .2rem;
+    }
+
+    #mv h1 small::before{
+        width: 10.8rem;
     }
 
     /* concept */
@@ -488,7 +506,7 @@ h2{
     #service .wrap li dt{
         width: 91.37%;
         font-size: 1.6rem;
-        margin-bottom: 1.8rem;
+        margin-bottom: .5rem;
     }
 
     #service .wrap li .content{
@@ -529,9 +547,13 @@ h2{
     #mission .wrap picture{
         position: absolute;
         margin: auto;
-        width: 37.5rem;
-        top: 2.7rem;
+        width: 27.4rem;
+        top: 4rem;
         left: 4.3rem;
+    }
+
+    #mission .wrap picture img{
+        width: 100%;
     }
 
     #mission .wrap picture::before{
@@ -556,7 +578,7 @@ h2{
 
     #info h2{
         transform: none;
-        margin-left: 3rem;
+        margin-left: 4rem;
         margin-bottom: 4.5rem;
     }
 
