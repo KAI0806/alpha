@@ -76,6 +76,10 @@ h2{
     margin-bottom: 6rem;
 }
 
+#concept figure figcaption h2::before{
+    width: 21rem;
+}
+
 #concept figure figcaption p{
     line-height: 2;
 }
@@ -311,6 +315,10 @@ h2{
     margin-bottom: 5.3rem;
 }
 
+#recruit figure figcaption h2::before{
+    width: 19rem;
+}
+
 #recruit figure figcaption p{
     margin-bottom: 9.4rem;
 }
@@ -341,6 +349,10 @@ h2{
 
 #contact figure h2{
     margin-bottom: 6.7rem;
+}
+
+#contact figure h2::before{
+    width: 21.5rem;
 }
 
 #contact figure p{
