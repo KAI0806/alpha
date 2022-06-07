@@ -174,20 +174,11 @@ h2{
     margin: auto;
 }
 
-#service .img_list{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 8.3rem;
+.img_slider{
+    margin-bottom: 14rem;
 }
 
-#service .img_list picture{
-    width: 30.52%;
-}
 
-#service .img_list picture img{
-    width: 100%;
-}
 
 /* mission */
 

@@ -74,6 +74,7 @@
     margin-left: 50%;
     transform: translateX(-50%);
     margin-bottom: 6.3rem;
+    width: max-content;
 }
 
 #info .wrap{
