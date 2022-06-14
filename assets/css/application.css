@@ -426,7 +426,7 @@ footer .copy{
         left: 4.8rem;
     }
 
-    #nav .nav_link a{
+    #nav .nav_link > a{
         font-size: 2.5rem;
         font-weight: bold;
         color: #333333;
@@ -440,6 +440,10 @@ footer .copy{
         color: #333333;
     }
 
+    #nav .nav_link p a{
+        font-size: 1.4rem;
+        color: #333333;
+    }
 
 
     /* header */
