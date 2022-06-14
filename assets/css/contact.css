@@ -165,6 +165,7 @@ fieldset .col-sm-10{
     #tel_fax .wrap p{
         margin-left: 1rem;
         height: 4.6rem;
+        width: 100%;
     }
 
     #tel_fax .wrap p:last-child{
