@@ -40,12 +40,13 @@ h2{
 #mv h1 small{
     font-size: 3.3rem;
     position: relative;
+    letter-spacing: .5rem;
 }
 
 #mv h1 small::before{
     content: "";
     position: absolute;
-    width: 20.4rem;
+    width: 8.25rem;
     height: .1rem;
     right: 0;
     bottom: 0;
