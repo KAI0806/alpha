@@ -1,0 +1,2 @@
+user-agent: googlebot
+Sitemap: https://alpha0201.co.jp/sitemap.xml
